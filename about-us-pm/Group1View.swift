@@ -19,7 +19,10 @@ struct Group1View: View {
                 .tabItem {
                     Label("Ethan", systemImage: "person")
                 }
-            
+            Group1QiYangView()
+                .tabItem {
+                    Label("Qi Yang", systemImage: "person")
+                }
             /*@START_MENU_TOKEN@*/Text("This is person 3! Replace me with a view.")/*@END_MENU_TOKEN@*/
                 .tabItem {
                     Label("Person 3", systemImage: "person.fill.turn.down")
